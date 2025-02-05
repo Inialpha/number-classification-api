@@ -40,15 +40,18 @@ A simple FastAPI project that classifies numbers based on mathematical propertie
     "error": true
 }
 ```
+## Run Locally
+
+#### Clone the repo
 ```bash
 git clone https://github.com/yourusername/number-classification-api.git
 cd number-classification-api
 ```
-
+#### Install dependencies
 ```
 pip install -r requirements.txt
 ```
-
+#### Run the API
 ```
 uvicorn main:app --reload
 ```
